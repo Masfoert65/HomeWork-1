@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >
-
+    <div class="container mx-auto h-screen w-full  flex flex-coll">
+        <!-- Left said bar -->
+        <div class="flex bg-gray-400 h-full w-1/5">
+            Left said bar
+        </div>
+        <!-- Main -->
+        <div class="flex-coll bg-green-300 h-full   w-full">
+            <!-- NavBar -->
+            <div class="flex h-24 w-full bg-white">
+                NavBar
+            </div>
+            <!-- Content -->
+            <div class="flex bg-green-200 h-[765px]">
+                Content
+            </div>
+            <!-- Footer -->
+            <div class="flex bg-sky-500 h-24">
+                Footer
+            </div>
+        </div>
+        <!-- Right said bar -->
+        <div class="flex bg-gray-200 h-full w-1/5 ">
+            Right said bar
+        </div>
+  </div>
 </body>
 </html>
